@@ -22,5 +22,5 @@ for palette, color in pairs(palette) do
 
   io.write(tostring(color), "\t\t")
   io.write(tostring(r), ", ", tostring(g), ", ", tostring(b), "\t\t")
-  io.write("\x1b[48;2;", tostring(r), ";", tostring(g), ";", tostring(b), "m  \x1b[0m\n")
+  io.write("\x1b[48;2;", tostring(r), ";", tostring(g), ";", tostring(b), "m        \x1b[0m\n")
 end
