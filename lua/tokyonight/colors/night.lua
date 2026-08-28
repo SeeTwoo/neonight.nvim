@@ -1,5 +1,6 @@
 local ret = {
-  bg = "#24283b",
+--  bg = "#24283b",
+  bg = "#ff8800"
   bg_dark = "#1f2335",
   bg_dark1 = "#1b1e2d",
   bg_highlight = "#292e42",
