@@ -36,6 +36,8 @@ local ret = {
   },
 }
 
+return ret
+
 --[[
 ---@type Palette
 return vim.tbl_deep_extend("force", ret, {
