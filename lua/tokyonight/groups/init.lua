@@ -19,7 +19,6 @@ M.plugins = {
   ["gitsigns.nvim"]                 = "gitsigns",
   ["grug-far.nvim"]                 = "grug-far",
   ["headlines.nvim"]                = "headlines",
---  ["hop.nvim"]                      = "hop",
   ["indent-blankline.nvim"]         = "indent-blankline",
   ["indentmini.nvim"]               = "indentmini",
   ["lazy.nvim"]                     = "lazy",
