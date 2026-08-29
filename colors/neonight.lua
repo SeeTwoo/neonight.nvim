@@ -6,7 +6,7 @@ M.styles = {}
 
 ---@param opts? tokyonight.Config
 do
-  opts = {style = "night"}
+  opts = {style = "neonight"}
   opts = require("tokyonight.config").extend(opts)
   local bg = vim.o.background
   local style_bg = opts.style == "day" and "light" or "dark"
