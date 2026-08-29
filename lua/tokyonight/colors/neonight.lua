@@ -27,7 +27,7 @@ local ret = {
   fg_pop2 = "#4d092c",        --fg fork keywords and preproc
   fg_pop3 = "#ee198b",        --fg for statements
 
-  fg_accent = "#16baba",      --various accent colors (current line number, matching parenthesis...)
+  fg_accent = "ccfdfd",      --various accent colors (current line number, matching parenthesis...)
   fg_accent2 = "#e0af68",     --things needing extra attention like the keyword TODO, FIXME...
 
   fg_dim1 = "#545c7e",        --fg for NonText and SpecialKey
