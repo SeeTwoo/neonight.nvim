@@ -85,6 +85,7 @@ end
 ---@param colors ColorScheme
 ---@param opts tokyonight.Config
 function M.get(name, colors, opts)
+  print(name)
   local mod = M.get_group(name)
   return mod.get(colors, opts)
 end
