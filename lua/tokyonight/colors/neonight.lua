@@ -12,12 +12,12 @@ local ret = {
   bg_highlight = "#000717",   --background for current line
 
   fg = "#f0f8ff",             --regular foreground
-  fg1 = "#ccfdfd",            --fg for function and methods name
+  fg1 = "#ffc8e6",            --fg for function and methods name
   fg2 = "#f0f8ff",            --fg for operators
   fg3 = "#f0f8ff",            --fg for regexes
   fg4 = "#f0f8ff",            --bg for lsp inlay hints
   fg5 = "#f993ca",            --characters and strings
-  fg6 = "#16baba",            --fg for healthSuccess
+  fg6 = "#ccfdfd",            --fg for healthSuccess
   fg7 = "#f0f8ff",            --foo
   fg8 = "#850a4a",            --fg for treesitter keyword
   fg9 = "#f7768e",            --fg for replacement text highlighing or treesitter builtin variable names (this)
