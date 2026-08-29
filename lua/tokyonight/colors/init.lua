@@ -5,7 +5,7 @@ local M = {}
 ---@type table<string, Palette|fun(opts:tokyonight.Config):Palette>
 M.styles = setmetatable({}, {
   __index = function(_, style)
-    return vim.deepcopy(Util.mod("tokyonight.colors" .. style))
+    return vim.deepcopy(Util.mod("tokyonight.colors." .. style))
   end,
 })
 
