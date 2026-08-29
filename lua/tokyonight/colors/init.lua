@@ -15,7 +15,7 @@ function M.setup(opts)
 
   Util.day_brightness = opts.day_brightness
 
-  local palette = M.styles[opts.style]
+  local palette = M.styles["night"]
   if type(palette) == "function" then
     palette = palette(opts) --[[@as Palette]]
   end
