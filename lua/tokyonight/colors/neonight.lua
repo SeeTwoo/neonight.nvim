@@ -17,7 +17,7 @@ local ret = {
   fg3 = "#f0f8ff",            --fg for regexes
   fg4 = "#f0f8ff",            --bg for lsp inlay hints
   fg5 = "#f993ca",            --characters and strings
-  fg6 = "#ccfdfd",            --fg for healthSuccess
+  fg6 = "#ccfdfd",            --fg variables for healthSuccess
   fg7 = "#f0f8ff",            --foo
   fg8 = "#850a4a",            --fg for treesitter keyword
   fg9 = "#f7768e",            --fg for replacement text highlighing or treesitter builtin variable names (this)
@@ -35,7 +35,7 @@ local ret = {
   fg_dim3 = "#a9b1d6",        --mode messages (-- INSERT --) and punctuation
   fg_dim4 = "#3b4261",        --dimmed stuff like line number
   
-  comment = "#4782b4",        --fg for comments
+  comment = "#2b4261",        --fg for comments
   terminal_black = "#414868", --read the code if you are interested in this, it does not look interesting to me
 
   git = {
