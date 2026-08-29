@@ -6,7 +6,7 @@ M.url = "https://github.com/echasnovski/mini.surround"
 function M.get(c)
   -- stylua: ignore
   return {
-    MiniSurround = { bg = c.orange, fg = c.black },
+    MiniSurround = { bg = c.fg_accent, fg = c.black },
   }
 end
 

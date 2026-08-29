@@ -6,8 +6,8 @@ M.url = "https://github.com/nvimdev/indentmini.nvim"
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    IndentLine                 = { fg = c.fg_gutter, nocombine = true },
-    IndentLineCurrent          = { fg = c.blue1, nocombine = true },
+    IndentLine                 = { fg = c.fg_dim4, nocombine = true },
+    IndentLineCurrent          = { fg = c.fg_pop1, nocombine = true },
   }
 end
 

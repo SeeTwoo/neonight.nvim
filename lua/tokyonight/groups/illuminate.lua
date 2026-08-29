@@ -6,11 +6,11 @@ M.url = "https://github.com/RRethy/vim-illuminate"
 function M.get(c)
   -- stylua: ignore
   return {
-    IlluminatedWordRead  = { bg = c.fg_gutter },
-    IlluminatedWordText  = { bg = c.fg_gutter },
-    IlluminatedWordWrite = { bg = c.fg_gutter },
-    illuminatedCurWord   = { bg = c.fg_gutter },
-    illuminatedWord      = { bg = c.fg_gutter },
+    IlluminatedWordRead  = { bg = c.fg_dim4 },
+    IlluminatedWordText  = { bg = c.fg_dim4 },
+    IlluminatedWordWrite = { bg = c.fg_dim4 },
+    illuminatedCurWord   = { bg = c.fg_dim4 },
+    illuminatedWord      = { bg = c.fg_dim4 },
   }
 end
 

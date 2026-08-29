@@ -9,40 +9,40 @@ function M.get(style)
   local hl = {}
 
   hl.normal = {
-    a = { bg = colors.blue, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.blue },
+    a = { bg = colors.fg1, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg1 },
     c = { bg = colors.bg_statusline, fg = colors.fg_sidebar },
   }
 
   hl.insert = {
-    a = { bg = colors.green, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.green },
+    a = { bg = colors.fg5, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg5 },
   }
 
   hl.command = {
-    a = { bg = colors.yellow, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.yellow },
+    a = { bg = colors.fg_accent2, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg_accent2 },
   }
 
   hl.visual = {
-    a = { bg = colors.magenta, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.magenta },
+    a = { bg = colors.fg_pop3, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg_pop3 },
   }
 
   hl.replace = {
-    a = { bg = colors.red, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.red },
+    a = { bg = colors.fg9, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg9 },
   }
 
   hl.terminal = {
-    a = { bg = colors.green1, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.green1 },
+    a = { bg = colors.fg6, fg = colors.black },
+    b = { bg = colors.fg_dim4, fg = colors.fg6 },
   }
 
   hl.inactive = {
-    a = { bg = colors.bg_statusline, fg = colors.blue },
-    b = { bg = colors.bg_statusline, fg = colors.fg_gutter, gui = "bold" },
-    c = { bg = colors.bg_statusline, fg = colors.fg_gutter },
+    a = { bg = colors.bg_statusline, fg = colors.fg1 },
+    b = { bg = colors.bg_statusline, fg = colors.fg_dim4, gui = "bold" },
+    c = { bg = colors.bg_statusline, fg = colors.fg_dim4 },
   }
 
   if config.lualine_bold then

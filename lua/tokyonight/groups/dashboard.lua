@@ -7,21 +7,21 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     -- General
-    DashboardHeader           = { fg = c.blue },
-    DashboardFooter           = { fg = c.blue1 },
+    DashboardHeader           = { fg = c.fg1 },
+    DashboardFooter           = { fg = c.fg_pop1 },
     -- Hyper theme
-    DashboardProjectTitle     = { fg = c.cyan },
-    DashboardProjectTitleIcon = { fg = c.orange },
-    DashboardProjectIcon      = { fg = c.yellow },
-    DashboardMruTitle         = { fg = c.cyan },
-    DashboardMruIcon          = { fg = c.purple },
-    DashboardFiles            = { fg = c.blue },
-    DashboardShortCutIcon     = { fg = c.magenta },
+    DashboardProjectTitle     = { fg = c.fg_pop2 },
+    DashboardProjectTitleIcon = { fg = c.fg_accent },
+    DashboardProjectIcon      = { fg = c.fg_accent2 },
+    DashboardMruTitle         = { fg = c.fg_pop2 },
+    DashboardMruIcon          = { fg = c.fg8 },
+    DashboardFiles            = { fg = c.fg1 },
+    DashboardShortCutIcon     = { fg = c.fg_pop3 },
     -- Doome theme
-    DashboardDesc             = { fg = c.cyan },
-    DashboardKey              = { fg = c.orange },
-    DashboardIcon             = { fg = c.cyan },
-    DashboardShortCut         = { fg = c.cyan },
+    DashboardDesc             = { fg = c.fg_pop2 },
+    DashboardKey              = { fg = c.fg_accent },
+    DashboardIcon             = { fg = c.fg_pop2 },
+    DashboardShortCut         = { fg = c.fg_pop2 },
   }
 end
 

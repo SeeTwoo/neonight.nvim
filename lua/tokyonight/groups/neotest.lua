@@ -6,22 +6,22 @@ M.url = "https://github.com/nvim-neotest/neotest"
 function M.get(c)
   -- stylua: ignore
   return {
-    NeotestAdapterName  = { fg = c.purple, bold = true },
-    NeotestBorder       = { fg = c.blue },
-    NeotestDir          = { fg = c.blue },
+    NeotestAdapterName  = { fg = c.fg8, bold = true },
+    NeotestBorder       = { fg = c.fg1 },
+    NeotestDir          = { fg = c.fg1 },
     NeotestExpandMarker = { fg = c.fg_sidebar },
-    NeotestFailed       = { fg = c.red },
-    NeotestFile         = { fg = c.teal },
-    NeotestFocused      = { fg = c.yellow },
+    NeotestFailed       = { fg = c.fg9 },
+    NeotestFile         = { fg = c.fg10 },
+    NeotestFocused      = { fg = c.fg_accent2 },
     NeotestIndent       = { fg = c.fg_sidebar },
-    NeotestMarked       = { fg = c.blue },
+    NeotestMarked       = { fg = c.fg1 },
     NeotestNamespace    = { fg = c.green2 },
-    NeotestPassed       = { fg = c.green },
-    NeotestRunning      = { fg = c.yellow },
-    NeotestSkipped      = { fg = c.blue },
-    NeotestTarget       = { fg = c.blue },
+    NeotestPassed       = { fg = c.fg5 },
+    NeotestRunning      = { fg = c.fg_accent2 },
+    NeotestSkipped      = { fg = c.fg1 },
+    NeotestTarget       = { fg = c.fg1 },
     NeotestTest         = { fg = c.fg_sidebar },
-    NeotestWinSelect    = { fg = c.blue },
+    NeotestWinSelect    = { fg = c.fg1 },
   }
 end
 

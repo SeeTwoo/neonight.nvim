@@ -32,13 +32,13 @@ function M.setup(opts)
   colors.diff = {
     add = Util.blend_bg(colors.green2, 0.25),
     delete = Util.blend_bg(colors.red1, 0.25),
-    change = Util.blend_bg(colors.blue7, 0.15),
-    text = colors.blue7,
+    change = Util.blend_bg(colors.fg4, 0.15),
+    text = colors.fg4,
   }
 
-  colors.git.ignore = colors.dark3
+  colors.git.ignore = colors.fg_dim1
   colors.black = Util.blend_bg(colors.bg, 0.8, "#000000")
-  colors.border_highlight = Util.blend_bg(colors.blue1, 0.8)
+  colors.border_highlight = Util.blend_bg(colors.fg_pop1, 0.8)
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
@@ -54,26 +54,26 @@ function M.setup(opts)
     or opts.styles.floats == "dark" and colors.bg_dark
     or colors.bg
 
-  colors.bg_visual = Util.blend_bg(colors.blue0, 0.4)
-  colors.bg_search = colors.blue0
-  colors.fg_sidebar = colors.fg_dark
+  colors.bg_visual = Util.blend_bg(colors.fg10, 0.4)
+  colors.bg_search = colors.fg10
+  colors.fg_sidebar = colors.fg_dim3
   colors.fg_float = colors.fg
 
   colors.error = colors.red1
-  colors.todo = colors.blue
-  colors.warning = colors.yellow
-  colors.info = colors.blue2
-  colors.hint = colors.teal
+  colors.todo = colors.fg1
+  colors.warning = colors.fg_accent2
+  colors.info = colors.fg12
+  colors.hint = colors.fg10
 
   colors.rainbow = {
-    colors.blue,
-    colors.yellow,
-    colors.green,
-    colors.teal,
-    colors.magenta,
-    colors.purple,
-    colors.orange,
-    colors.red,
+    colors.fg1,
+    colors.fg_accent2,
+    colors.fg5,
+    colors.fg10,
+    colors.fg_pop3,
+    colors.fg8,
+    colors.fg_accent,
+    colors.fg9,
   }
 
   -- stylua: ignore
@@ -81,19 +81,19 @@ function M.setup(opts)
   colors.terminal = {
     black          = colors.black,
     black_bright   = colors.terminal_black,
-    red            = colors.red,
-    red_bright     = Util.brighten(colors.red),
-    green          = colors.green,
-    green_bright   = Util.brighten(colors.green),
-    yellow         = colors.yellow,
-    yellow_bright  = Util.brighten(colors.yellow),
-    blue           = colors.blue,
-    blue_bright    = Util.brighten(colors.blue),
-    magenta        = colors.magenta,
-    magenta_bright = Util.brighten(colors.magenta),
-    cyan           = colors.cyan,
-    cyan_bright    = Util.brighten(colors.cyan),
-    white          = colors.fg_dark,
+    fg9            = colors.fg9,
+    red_bright     = Util.brighten(colors.fg9),
+    fg5          = colors.fg5,
+    green_bright   = Util.brighten(colors.fg5),
+    fg_accent2         = colors.fg_accent2,
+    yellow_bright  = Util.brighten(colors.fg_accent2),
+    fg1           = colors.fg1,
+    fg1_bright    = Util.brighten(colors.fg1),
+    fg_pop3        = colors.fg_pop3,
+    magenta_bright = Util.brighten(colors.fg_pop3),
+    fg_pop2           = colors.fg_pop2,
+    cyan_bright    = Util.brighten(colors.fg_pop2),
+    white          = colors.fg_dim3,
     white_bright   = colors.fg,
   }
 

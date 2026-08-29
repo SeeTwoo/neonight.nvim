@@ -8,10 +8,10 @@ M.url = "https://github.com/phaazon/hop.nvim"
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    HopNextKey = { fg = c.magenta2, bold = true },
-    HopNextKey1 = { fg = c.blue2, bold = true },
-    HopNextKey2 = { fg = Util.blend_bg(c.blue2, 0.6) },
-    HopUnmatched = { fg = c.dark3 },
+    HopNextKey = { fg = c.fg7, bold = true },
+    HopNextKey1 = { fg = c.fg12, bold = true },
+    HopNextKey2 = { fg = Util.blend_bg(c.fg12, 0.6) },
+    HopUnmatched = { fg = c.fg_dim1 },
   }
 end
 

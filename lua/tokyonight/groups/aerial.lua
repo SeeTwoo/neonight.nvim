@@ -7,7 +7,7 @@ function M.get(c, opts)
   -- stylua: ignore
   local ret = {
     AerialNormal = { fg = c.fg, bg = c.none },
-    AerialGuide  = { fg = c.fg_gutter },
+    AerialGuide  = { fg = c.fg_dim4 },
     AerialLine   = "LspInlayHint",
   }
   require("tokyonight.groups.kinds").kinds(ret, "Aerial%sIcon")

@@ -6,24 +6,24 @@ M.url = "https://github.com/glepnir/lspsaga.nvim"
 function M.get(c, opts)
   -- stylua: ignore
   return {
-    DefinitionCount            = { fg = c.purple },
-    DefinitionIcon             = { fg = c.blue },
+    DefinitionCount            = { fg = c.fg8 },
+    DefinitionIcon             = { fg = c.fg1 },
     DiagnosticInformation      = "DiagnosticInfo",
     DiagnosticWarning          = "DiagnosticWarn",
     LspFloatWinBorder          = { fg = c.border_highlight },
     LspFloatWinNormal          = { bg = c.bg_float },
-    LspSagaBorderTitle         = { fg = c.cyan },
-    LspSagaCodeActionBorder    = { fg = c.blue },
-    LspSagaCodeActionContent   = { fg = c.purple },
-    LspSagaCodeActionTitle     = { fg = c.blue1 },
-    LspSagaDefPreviewBorder    = { fg = c.green },
+    LspSagaBorderTitle         = { fg = c.fg_pop2 },
+    LspSagaCodeActionBorder    = { fg = c.fg1 },
+    LspSagaCodeActionContent   = { fg = c.fg8 },
+    LspSagaCodeActionTitle     = { fg = c.fg_pop1 },
+    LspSagaDefPreviewBorder    = { fg = c.fg5 },
     LspSagaFinderSelection     = { fg = c.bg_visual },
-    LspSagaHoverBorder         = { fg = c.blue },
-    LspSagaRenameBorder        = { fg = c.green },
-    LspSagaSignatureHelpBorder = { fg = c.red },
-    ReferencesCount            = { fg = c.purple },
-    ReferencesIcon             = { fg = c.blue },
-    TargetWord                 = { fg = c.cyan },
+    LspSagaHoverBorder         = { fg = c.fg1 },
+    LspSagaRenameBorder        = { fg = c.fg5 },
+    LspSagaSignatureHelpBorder = { fg = c.fg9 },
+    ReferencesCount            = { fg = c.fg8 },
+    ReferencesIcon             = { fg = c.fg1 },
+    TargetWord                 = { fg = c.fg_pop2 },
   }
 end
 

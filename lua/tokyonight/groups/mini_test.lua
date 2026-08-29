@@ -7,8 +7,8 @@ function M.get(c)
   -- stylua: ignore
   return {
     MiniTestEmphasis = { bold = true },
-    MiniTestFail = { fg = c.red, bold = true },
-    MiniTestPass = { fg = c.green, bold = true },
+    MiniTestFail = { fg = c.fg9, bold = true },
+    MiniTestPass = { fg = c.fg5, bold = true },
   }
 end
 

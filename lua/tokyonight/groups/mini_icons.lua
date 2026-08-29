@@ -7,14 +7,14 @@ function M.get(c)
   -- stylua: ignore
   return {
     MiniIconsGrey   = { fg = c.fg },
-    MiniIconsPurple = { fg = c.purple },
-    MiniIconsBlue   = { fg = c.blue },
+    MiniIconsPurple = { fg = c.fg8 },
+    MiniIconsBlue   = { fg = c.fg1 },
     MiniIconsAzure  = { fg = c.info },
-    MiniIconsCyan   = { fg = c.teal },
-    MiniIconsGreen  = { fg = c.green },
-    MiniIconsYellow = { fg = c.yellow },
-    MiniIconsOrange = { fg = c.orange },
-    MiniIconsRed    = { fg = c.red },
+    MiniIconsCyan   = { fg = c.fg10 },
+    MiniIconsGreen  = { fg = c.fg5 },
+    MiniIconsYellow = { fg = c.fg_accent2 },
+    MiniIconsOrange = { fg = c.fg_accent },
+    MiniIconsRed    = { fg = c.fg9 },
   }
 end
 

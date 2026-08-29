@@ -38,22 +38,22 @@ function M.terminal(colors)
   vim.g.terminal_color_15 = colors.terminal.white_bright
 
   -- colors
-  vim.g.terminal_color_1 = colors.terminal.red
+  vim.g.terminal_color_1 = colors.terminal.fg9
   vim.g.terminal_color_9 = colors.terminal.red_bright
 
-  vim.g.terminal_color_2 = colors.terminal.green
+  vim.g.terminal_color_2 = colors.terminal.fg5
   vim.g.terminal_color_10 = colors.terminal.green_bright
 
-  vim.g.terminal_color_3 = colors.terminal.yellow
+  vim.g.terminal_color_3 = colors.terminal.fg_accent2
   vim.g.terminal_color_11 = colors.terminal.yellow_bright
 
-  vim.g.terminal_color_4 = colors.terminal.blue
-  vim.g.terminal_color_12 = colors.terminal.blue_bright
+  vim.g.terminal_color_4 = colors.terminal.fg1
+  vim.g.terminal_color_12 = colors.terminal.fg1_bright
 
-  vim.g.terminal_color_5 = colors.terminal.magenta
+  vim.g.terminal_color_5 = colors.terminal.fg_pop3
   vim.g.terminal_color_13 = colors.terminal.magenta_bright
 
-  vim.g.terminal_color_6 = colors.terminal.cyan
+  vim.g.terminal_color_6 = colors.terminal.fg_pop2
   vim.g.terminal_color_14 = colors.terminal.cyan_bright
 end
 

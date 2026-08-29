@@ -8,9 +8,9 @@ function M.get(c, opts)
   return {
     TelescopeBorder         = { fg = c.border_highlight, bg = c.bg_float },
     TelescopeNormal         = { fg = c.fg, bg = c.bg_float },
-    TelescopePromptBorder   = { fg = c.orange, bg = c.bg_float },
-    TelescopePromptTitle    = { fg = c.orange, bg = c.bg_float },
-    TelescopeResultsComment = { fg = c.dark3 },
+    TelescopePromptBorder   = { fg = c.fg_accent, bg = c.bg_float },
+    TelescopePromptTitle    = { fg = c.fg_accent, bg = c.bg_float },
+    TelescopeResultsComment = { fg = c.fg_dim1 },
   }
 end
 
