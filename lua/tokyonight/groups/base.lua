@@ -23,8 +23,8 @@ function M.get(c, opts)
     DiffText                    = { bg = c.diff.text }, -- diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer                 = { fg = c.bg }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     ErrorMsg                    = { fg = c.error }, -- error messages on the command line
-    VertSplit                   = { fg = c.border }, -- the column separating vertically split windows
-    WinSeparator                = { fg = c.border, bold = true }, -- the column separating vertically split windows
+    VertSplit                   = { fg = c.border_highlight }, -- the column separating vertically split windows
+    WinSeparator                = { fg = c.border_highlight, bold = true }, -- the column separating vertically split windows
     Folded                      = { fg = c.fg1, bg = c.fg_dim4 }, -- line used for closed folds
     FoldColumn                  = { bg = opts.transparent and c.none or c.bg, fg = c.comment }, -- 'foldcolumn'
     SignColumn                  = { bg = opts.transparent and c.none or c.bg, fg = c.fg_dim4 }, -- column where |signs| are displayed
