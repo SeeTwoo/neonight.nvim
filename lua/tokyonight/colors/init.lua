@@ -50,9 +50,7 @@ function M.setup(opts)
     or opts.styles.sidebars == "dark" and colors.bg_dark
     or colors.bg
 
-  colors.bg_float = opts.styles.floats == "transparent" and colors.none
-    or opts.styles.floats == "dark" and colors.bg_dark
-    or colors.bg
+  colors.bg_float = colors.bg
 
   colors.bg_visual = Util.blend_bg(colors.fg10, 0.4)
   colors.bg_search = colors.fg10
