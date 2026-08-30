@@ -30,6 +30,7 @@ function M.get(c, opts)
     ["@function"]                   = "Function",
     ["@function.builtin"]           = "Special",
     ["@function.call"]              = "Normal",
+    ["@function.call.c"]            = "Normal",
     ["@function.macro"]             = "Macro",
     ["@function.method"]            = "Function",
     ["@function.method.call"]       = "@function.method",
