@@ -8,6 +8,7 @@ M.styles = {}
 do
   opts = {style = "neonight"}
   opts = require("tokyonight.config").extend(opts)
+  --[[
   local bg = vim.o.background
   local style_bg = opts.style == "day" and "light" or "dark"
 
@@ -18,6 +19,7 @@ do
       vim.o.background = style_bg
     end
   end
+  ]]
   M.styles[vim.o.background] = opts.style
   return require("tokyonight.theme").setup(opts)
 end
