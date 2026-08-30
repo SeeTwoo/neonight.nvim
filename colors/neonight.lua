@@ -8,20 +8,24 @@ M.styles = {}
 do
   opts = {style = "neonight"}
   opts = require("tokyonight.config").extend(opts)
-  --[[
-  local bg = vim.o.background
-  local style_bg = opts.style == "day" and "light" or "dark"
-
-  if bg ~= style_bg then
-    if vim.g.colors_name == "tokyonight-" .. opts.style then
-      opts.style = bg == "light" and (M.styles.light or "day") or (M.styles.dark or "moon")
-    else
-      vim.o.background = style_bg
-    end
-  end
-  ]]
   M.styles[vim.o.background] = opts.style
-  return require("tokyonight.theme").setup(opts)
+
+  local colors = require("tokyonight.colors").setup(opts)
+  local groups = require("tokyonight.groups").setup(colors, opts)
+
+  -- only needed to clear when not the default colorscheme
+  if vim.g.colors_name then
+    vim.cmd("hi clear")
+  end
+
+  vim.o.termguicolors = true
+  vim.g.colors_name = "tokyonight-" .. opts.style
+
+  for group, hl in pairs(groups) do
+    hl = type(hl) == "string" and { link = hl } or hl
+    vim.api.nvim_set_hl(0, group, hl)
+  end
+  return colors, groups, opts
 end
 
 -- M.setup = config.setup
