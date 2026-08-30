@@ -8,7 +8,7 @@
 ---@class Palette
 local ret = {
   bg = "#000717",             --regular background
-  bg_dark = "#001033",        --background in inactive window
+  bg_dark = "#000c29",        --background in inactive window
   bg_highlight = "#000717",   --background for current line
 
   fg = "#f0f8ff",             --regular foreground
