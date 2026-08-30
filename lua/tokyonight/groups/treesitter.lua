@@ -29,7 +29,7 @@ function M.get(c, opts)
     ["@diff.plus"]                  = "DiffAdd",
     ["@function"]                   = "Function",
     ["@function.builtin"]           = "Special",
-    ["@function.call"]              = "@function",
+    ["@function.call"]              = "Normal",
     ["@function.macro"]             = "Macro",
     ["@function.method"]            = "Function",
     ["@function.method.call"]       = "@function.method",
