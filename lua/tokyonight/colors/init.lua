@@ -38,7 +38,7 @@ function M.setup(opts)
 
   colors.git.ignore = colors.fg_dim1
   colors.black = Util.blend_bg(colors.bg, 0.8, "#000000")
-  colors.border_highlight = Util.blend_bg(colors.fg_pop1, 0.8)
+  colors.border_highlight = Util.blend_bg(colors.fg6, 0.8)
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
