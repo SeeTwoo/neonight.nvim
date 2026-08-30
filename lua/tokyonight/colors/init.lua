@@ -46,7 +46,7 @@ function M.setup(opts)
   colors.bg_statusline = colors.bg_dark
 
   -- Sidebar and Floats are configurable
-  colors.bg_sidebar = colors.bg_dark
+  colors.bg_sidebar = colors.bg
     or opts.styles.sidebars == "dark" and colors.bg_dark
     or colors.bg
 
