@@ -1,0 +1,30 @@
+local ret = {
+  bronze            = "#5c4609",
+  cyan              = "#00ffff",
+
+  dark_blue         = "#000717",
+  dark_blue1        = "#00081c",
+  dark_blue2        = "#000a21",
+  dark_blue3        = "#030e25",
+  dark_blue4        = "#091530",
+  dark_blue5        = "#0c1a36",
+  dark_blue6        = "#0c1a38",
+  dark_blue7        = "#0e1f41",
+
+  dark_grey         = "#303030",
+  dark_rasberry     = "#850a4a",
+  deep_pink         = "#ff1493",
+  dim_blue          = "#2b4261",
+  lavender_blush    = "#ffdef0",
+  light_blue        = "#add8e6",
+  --orange            = "#e29720",
+  orange            = "#ffb847",
+  orchid            = "#dda0dd",
+  purple            = "#a020f0",
+  roy_blue          = "#153888",
+  saffron           = "#94700b",
+  sand              = "#f5cb87",
+  --white             = "#f0f8ff",
+  white             = "#d2d8e8",
+}
+return ret

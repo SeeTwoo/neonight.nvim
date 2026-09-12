@@ -1,12 +1,12 @@
 local M = {}
 
-M.url = "https://github.com/echasnovski/mini.operators"
+M.url = "https://github.com/kyazdani42/nvim-tree.lua"
 
 ---@type tokyonight.HighlightsFn
 function M.get(c)
   -- stylua: ignore
   return {
-    MiniOperatorsExchangeFrom = "IncSearch",
+    NvimTreeNormal        = { bg = c.dark_blue1},
   }
 end
 
