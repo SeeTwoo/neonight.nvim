@@ -4,7 +4,7 @@ function M.get(c)
   -- stylua: ignore
   local ret = {
     -- C --
-    ["@constant.c"]                     = { fg = c.dark_rasberry, bold = true},
+    ["@constant.c"]                     = { fg = c.orange, bold = true},
     ["@constant.macro.c"]               = { link = "@constant.c"},
     ["@function.c"]                     = { link = "Normal" },
     ["@function.call.c"]                = { link = "Normal" },

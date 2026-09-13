@@ -17,7 +17,6 @@ local ret = {
   dim_blue          = "#2b4261",
   lavender_blush    = "#ffdef0",
   light_blue        = "#add8e6",
-  --orange            = "#e29720",
   orange            = "#ffb847",
   orchid            = "#dda0dd",
   purple            = "#a020f0",
