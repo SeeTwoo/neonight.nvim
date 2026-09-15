@@ -14,7 +14,8 @@ function M.get(c)
     
 
     -- rust --
-
+    ["@function.rust"]                  = { link = "Normal" },
+    ["@function.macro.rust"]            = { link = "Normal" },
 
     -- lua --
     ["@constructor.lua"]                = { link = "Normal" },
